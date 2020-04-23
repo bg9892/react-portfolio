@@ -13,7 +13,7 @@
 
 # Screenshots
 
-![Index](portfolio/public/Assets/Images/screenshot1.png)
-![Contact](portfolio/public/Assets/Images/screenshot2.png)
-![Portfolio](portfolio/public/Assets/Images/screenshot3.png)
+![Index](public/Assets/Images/screenshot1.png)
+![Contact](public/Assets/Images/screenshot2.png)
+![Portfolio](public/Assets/Images/screenshot3.png)
 
