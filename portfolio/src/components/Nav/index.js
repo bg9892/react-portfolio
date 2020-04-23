@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Nav() {
   return (
     <nav class=" col py-4 px-lg-2 navbar navbar-expand-lg navbar-dark bg-dark mb-5">
-      <a class="navbar-brand ml-5" href="index.html">Bradley Goff</a>
+      <a class="navbar-brand ml-5">Bradley Goff</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,13 @@ function Nav() {
             </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+          <Link
+              to="/contact"
+              className={
+                window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+            >
+              Contact
+            </Link>
           </li>
         </ul>
       </div>
