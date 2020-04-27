@@ -9,7 +9,7 @@ function Portfolio() {
 
         <div class="col-md-3 mx-2 mb-2">
           <div class="card">
-            <img class="card-img-top" src="Assets/Images/ScreenShot.png" alt="Password Generator" />
+            <img class="card-img-top" src={process.env.PUBLIC_URL + "Assets/Images/ScreenShot.png"} alt="Password Generator" />
             <div class="card-body">
               <h5 class="card-title">Password Generator</h5>
               <p class="card-text">Written in javascript, this app generates a random password based off the criteria selected.</p>
@@ -22,7 +22,7 @@ function Portfolio() {
 
         <div class="col-md-3 mx-2 mb-2">
           <div class="card">
-            <img class="card-img-top" src="Assets/Images/burger.png" alt="Eat-Da-Burger" />
+            <img class="card-img-top" src={process.env.PUBLIC_URL + "Assets/Images/burger.png"} alt="Eat-Da-Burger" />
             <div class="card-body">
               <h5 class="card-title">Eat-Da-Burger</h5>
               <p class="card-text">Add your favorite burgers to the to be eaten list for later. Then devour them!</p>
@@ -35,7 +35,7 @@ function Portfolio() {
 
         <div class="col-md-3 mx-2 mb-2">
           <div class="card">
-            <img class="card-img-top" src="Assets/Images/Novel-19.png" alt="Novel-19" />
+            <img class="card-img-top" src={process.env.PUBLIC_URL + "Assets/Images/Novel-19.png"} alt="Novel-19" />
             <div class="card-body">
               <h5 class="card-title">Novel-19</h5>
               <p class="card-text">Assist users in being aware of their surroundings and flattening the curve of the coronavirus.</p>
@@ -48,7 +48,7 @@ function Portfolio() {
 
         <div class="col-md-3 mx-2">
           <div class="card">
-            <img class="card-img-top" src="Assets/Images/Budget-Tracker.png" alt="Budget" />
+            <img class="card-img-top" src={process.env.PUBLIC_URL + "Assets/Images/Budget-Tracker.png"} alt="Budget" />
             <div class="card-body">
               <h5 class="card-title">Budget Tracker</h5>
               <p class="card-text">A budget tracking app where you can add or subtract an item, dollar amount, and track on a graph.</p>
