@@ -12,9 +12,9 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route exact path={process.env.PUBLIC_URL + "/"} component={Section} />
-          <Route exact path={process.env.PUBLIC_URL +"/portfolio"} component={Portfolio} />
-          <Route exact path={process.env.PUBLIC_URL +"/contact"} component={Contact} />
+          <Route exact path={"/"} component={Section} />
+          <Route exact path={"/portfolio"} component={Portfolio} />
+          <Route exact path={"/contact"} component={Contact} />
           <Route component={Section} />
         </Switch>
         <Footer />

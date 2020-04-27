@@ -8,7 +8,7 @@ function Section() {
         <div class="col-md-8 bg-light py-3  mb-5 px-5 rounded">
           <h1>About Me</h1>
           <hr class="my-4" />
-          <img class="img img-thumbnail float-left mr-4 mb-2" src={process.env.PUBLIC_URL + "Assets/Images/IMG_PROFILE.jpeg"}
+          <img class="img img-thumbnail float-left mr-4 mb-2" src={process.env.PUBLIC_URL + "/Assets/Images/IMG_PROFILE.jpeg"}
             alt="profile" width="200" height="200" />
           <p class="text-left">
             I’m from Nashville Tennessee, I went to Tennessee College of Applied Technology in 2013 majoring in
