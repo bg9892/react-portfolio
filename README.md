@@ -2,7 +2,7 @@
 
 # Website link
 
-(https://bg9892.github.io/bootcamp-h2/)
+(https://bg9892.github.io/react-portfolio/)
 
 ## Notes
 
