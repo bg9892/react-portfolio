@@ -61,12 +61,12 @@ function Portfolio() {
 
         <div class="col-md-3 mx-2">
           <div class="card">
-            <img class="card-img-top" id="novel" src="https://via.placeholder.com/200x200" alt="Novel-19" />
+            <img class="card-img-top" src={process.env.PUBLIC_URL + "/Assets/Images/chat.png"} alt="Budget" />
             <div class="card-body">
-              <h5 class="card-title">Coming Soon</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesquefelis arcu, maximus vel urna sed.</p>
-              <a href="" target="#" class="btn btn-primary">Github Repository</a>
-              <a href="" target="#" class="btn btn-primary ml-3" id="live">Live</a>
+              <h5 class="card-title">Fireside</h5>
+              <p class="card-text">Fireside is a real time chat application for when you and those around you need to have a fireside chat.</p>
+              <a href="https://github.com/bg9892/Fireside" target="#" class="btn btn-primary">Github Repository</a>
+              <a href="https://powerful-crag-10383.herokuapp.com/" target="#" class="btn btn-primary ml-3" id="live">Live</a>
             </div>
           </div>
         </div>
