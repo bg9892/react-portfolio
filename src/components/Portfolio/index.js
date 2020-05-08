@@ -13,8 +13,8 @@ function Portfolio() {
             <div class="card-body">
               <h5 class="card-title">Password Generator</h5>
               <p class="card-text">Written in javascript, this app generates a random password based off the criteria selected.</p>
-              <a href="https://github.com/bg9892/bootcamp-h3" target="#" class="btn btn-primary">Github Repository</a>
-              <a href="https://bg9892.github.io/bootcamp-h3/" target="#" class="btn btn-primary ml-3" id="live">Live</a>
+              <a href="https://github.com/bg9892/password-generator" target="#" class="btn btn-primary">Github Repository</a>
+              <a href="https://bg9892.github.io/password-generator/" target="#" class="btn btn-primary ml-3" id="live">Live</a>
             </div>
           </div>
         </div>
