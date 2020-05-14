@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <nav class=" col py-4 px-lg-2 navbar navbar-expand-lg navbar-dark bg-dark mb-5">
-      <a class="navbar-brand ml-5">Bradley Goff</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+    <nav className=" col py-4 px-lg-2 navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+      <a className="navbar-brand ml-5">Bradley Goff</a>
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse mr-5" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+      <div className="collapse navbar-collapse mr-5" id="navbarNavDropdown">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
             <Link
               to="/"
               className={
@@ -23,7 +23,7 @@ function Nav() {
               About
             </Link>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <Link
               to="/portfolio"
               className={
@@ -32,7 +32,7 @@ function Nav() {
               Portfolio
             </Link>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
           <Link
               to="/contact"
               className={
