@@ -19,6 +19,11 @@ function Footer() {
                   <span class="fa fa-linkedin fa-2x"></span>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="mailto:bg9892@gmail.com" class="text-light nav-link">
+                  <span class="fa fa-envelope-o fa-2x"></span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
